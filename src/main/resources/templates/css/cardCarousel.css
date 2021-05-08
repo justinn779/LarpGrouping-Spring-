@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
+ .carousel-nav-icon {
+	 height: 48px;
+	 width: 48px;
+}
+ .carousel-item .col, .carousel-item .col-sm, .carousel-item .col-md {
+	 margin: 4px;
+	 height: 320px;
+}
+ .card-img-top{
+ 	height: 200px
+ }
+ .card-text{
+ 	font-size: 14px;
+ 	text-align: right;
+ }
+ 
+ .btn btn-primary{
+ 	font-size: 12px;
+ 	text-align: right;
+ }
+
+ .avatar{
+display:inline-block;
+position:relative;
+overflow:hidden;
+border-radius:50%;
+position:absolute;
+top:15px;
+right:20px;
+background-color:black;
+
+}
+.avatar img{
+width:auto;
+height:100%;
+margin-left:-50%;
+}
+
+html{
+  /*設定網頁背景色*/
+  background-color: #D0D0D0;
+  font-family: Microsoft JhengHei;
+}
+

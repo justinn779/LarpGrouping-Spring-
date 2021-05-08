@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- bootStrap引用網址 -->
+	<link rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+		crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+		crossorigin="anonymous"></script>
+<!-- bootStrap引用網址 -->
+<!-- 導入html的head script -->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+<!-- 導入背景的css -->
+	<link rel="stylesheet" href="css/background.css" type="text/css">
+<title>Grouping</title>
+</head>
+<body>
+	<!-- 導入navbar -->
+	<div w3-include-html="HTMLTools/navbar.html"></div>
+	<!-- 條件搜尋 -->
+		<!-- 日期 -->
+		<div>
+			<label>日期: </label>
+			<input type="date">
+			<label> ~ </label>
+			<input type="date">
+		</div>
+		<!-- 星期 -->
+		<div>
+			<label>星期: </label>
+			<label><input type="checkbox"> 不限 </label>
+			<label><input type="checkbox"> 週末 </label>
+			<label><input type="checkbox"> 平日 </label>
+			<label><input type="checkbox"> 週一 </label>
+			<label><input type="checkbox"> 週二 </label>
+			<label><input type="checkbox"> 週三 </label>
+			<label><input type="checkbox"> 週四 </label>
+			<label><input type="checkbox"> 週五 </label>
+			<label><input type="checkbox"> 週六 </label>
+			<label><input type="checkbox"> 週日 </label>		
+		</div>
+		<!-- 時間 -->	
+		<div>
+			<label>時間: </label>
+			<label><input type="checkbox"> 不限 </label>
+			<label><input type="checkbox"> 早上 </label>
+			<label><input type="checkbox"> 下午 </label>
+			<label><input type="checkbox"> 晚上 </label>
+		</div>
+		<!-- 地點 --><!-- 性別 -->
+		<div>
+			<!-- 地點 -->
+			<label>地點: </label>
+			<select id="site-select">
+    			<option value="all">不限</option>
+    			<option value="taipei">大台北</option>
+   			 	<option value="north">桃竹苗</option>
+    			<option value="center">台中嘉義</option>
+    			<option value="south">台南高雄</option>
+			</select>
+			<!-- 性別 -->
+			<label> 性別: </label>
+			<select id="site-select">
+    			<option value="all">不限</option>
+    			<option value="taipei">男</option>
+   			 	<option value="north">女</option>
+			</select>		
+		</div>
+		<!-- 劇本類別 -->
+		<div>
+			<label>劇本分類: </label>
+			<label><input type="checkbox"> 不限 </label>
+		</div>
+		<div>
+			<label>　　我要: </label>
+			<label><input type="checkbox"> 情感 </label>
+			<label><input type="checkbox"> 恐怖 </label>
+			<label><input type="checkbox"> 搞笑 </label>
+			<label><input type="checkbox"> 陣營 </label>
+			<label><input type="checkbox"> 情懷 </label>
+			<label><input type="checkbox"> 還原 </label>
+			<label><input type="checkbox"> 狼殺 </label>	
+		</div>
+		<div>
+			<label>　　不要: </label>
+			<label><input type="checkbox"> 情感 </label>
+			<label><input type="checkbox"> 恐怖 </label>
+			<label><input type="checkbox"> 搞笑 </label>
+			<label><input type="checkbox"> 陣營 </label>
+			<label><input type="checkbox"> 情懷 </label>
+			<label><input type="checkbox"> 還原 </label>
+			<label><input type="checkbox"> 狼殺 </label>	
+		</div>
+	<!-- 導入html的body script -->
+	<script>w3.includeHTML();</script>
+</body>
+</html>
